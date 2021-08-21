@@ -353,6 +353,10 @@ textarea::placeholder {
     .mobile-gallery {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mobile-gallery a {
+        padding: 0 2rem;
     }
     .mobile-gallery a img {
         flex: 45%;
