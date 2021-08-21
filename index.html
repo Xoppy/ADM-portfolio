@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
     <title>Angelo Di Marco</title>
 </head>
 
@@ -19,13 +20,9 @@
             <img class="code-bg" src="./images/code-background.png" alt="">
         </div>
         <div class="container">
-
-
-
-
             <div class="nav-bar">
                 <a href="#" class="logo">Angelo Di Marco</a>
-                <a href="#"><i class="fas fa-bars"></i></a>
+                <a href="#" id="mobile-nav"><i class="fas fa-bars"></i></a>
                 <nav class="desktop-nav">
                     <ul>
                         <li>
@@ -84,13 +81,21 @@
 
     <div class="portfolio">
         <h1>Portfolio</h1>
-        <img src="./images/Portfolio-mockup.png" alt="Mockup" class="mockup-img">
+
+
         <div class="container">
-            <h3>Check Out my Work</h3>
-            <p>Here you can see some of the projects I worked on in the past.</p>
-            <p>As you can see I mostly work on HTML integrations but I also create web pages from scratch by designing them myself.</p>
-            <p>If you have an intern designer that you'd like me to work with there is no problem, communication is key in this job and I will be open to work with anyone that can make the end result beautiful.</p>
-            <a href="#contact-section" class="contact-btn">Contact me</a>
+            <div class="portfolio-container">
+                <div class="image">
+                    <img src="./images/Portfolio-mockup.png" alt="Mockup" class="mockup-img">
+                </div>
+                <div class="text-content">
+                    <h3>Check Out my Work</h3>
+                    <p>Here you can see some of the projects I worked on in the past.</p>
+                    <p>As you can see I mostly work on HTML integrations but I also create web pages from scratch by designing them myself.</p>
+                    <p>If you have an intern designer that you'd like me to work with there is no problem, communication is key in this job and I will be open to work with anyone that can make the end result beautiful.</p>
+                    <a href="#contact-section" class="contact-btn">Contact me</a>
+                </div>
+            </div>
             <div class="mobile-gallery">
                 <img src="./images/Portfolio-1.png" alt="">
                 <img src="./images/Portfolio-6.png" alt="">
@@ -109,29 +114,34 @@
     </div>
 
     <div class="contact" id="contact-section">
-        <h1>Contact</h1>
-        <div class="contact-info">
-            <div class="container">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h1>Contact</h1>
 
-                <p><i class="fas fa-paper-plane contact-icon"></i> Grand Est - France</p>
 
-                <p><i class="fas fa-phone-alt contact-icon"></i> (+33) 6 02 33 52 30</p>
+                    <p><i class="fas fa-paper-plane contact-icon"></i> Grand Est - France</p>
 
-                <p><i class="fas fa-envelope contact-icon"></i> angelodm.pers@gmail.com</p>
+                    <p><i class="fas fa-phone-alt contact-icon"></i> (+33) 6 02 33 52 30</p>
+
+                    <p><i class="fas fa-envelope contact-icon"></i> angelodm.pers@gmail.com</p>
+
+                </div>
+
+                <div class="form">
+                    <h3>Do you have any question?</h3>
+                    <div class="container">
+                        <form action="sumbit">
+                            <input type="text" name="name" id="name" placeholder="Full Name">
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input id="submit-btn" type="button" value="Submit">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="form">
-            <h3>Do you have any question?</h3>
-            <div class="container">
-                <form action="sumbit">
-                    <input type="text" name="name" id="name" placeholder="Full Name">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    <input id="submit-btn" type="button" value="Submit">
-                </form>
-            </div>
-        </div>
     </div>
     </div>
 
@@ -145,21 +155,24 @@
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
 
-            <nav class="footer-nav">
-                <ul>
-                    <li>
-                        <a href="#">ABOUT</a>
-                        <a href="#">PRICING</a>
-                        <a href="#">PORTFOLIO</a>
-                        <a href="#">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="footer-low">
+                <nav class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#">ABOUT</a>
+                            <a href="#">PRICING</a>
+                            <a href="#">PORTFOLIO</a>
+                            <a href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
 
-            <P>Copyright © 2021 Angelo Di Marco</P>
+                <P>Copyright © 2021 Angelo Di Marco</P>
+            </div>
+
         </div>
     </div>
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+
 </body>
 
 </html>
