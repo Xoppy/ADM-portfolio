@@ -226,7 +226,7 @@ textarea::placeholder {
 }
 
 .footer {
-    height: 100vh;
+    height: 100%;
     text-align: center;
     padding-top: 40%;
     background-image: linear-gradient(#2F2D4B, #2F2D4B), url(./images/footer-bg.png);
