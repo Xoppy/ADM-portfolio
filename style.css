@@ -24,6 +24,56 @@ body {
     display: none;
 }
 
+#mobile-nav {
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.logo {
+    z-index: 150;
+}
+
+#toggle {
+    display: none;
+}
+
+.mobile-nav {
+    position: absolute;
+    right: -100vw;
+    top: 0;
+    height: 80vh;
+    width: 100vw;
+    background-color: #2699FB;
+    transition: transform 1s;
+}
+
+.mobile-nav ul li {
+    padding-top: 20%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-nav ul li a {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.blue-rectangle {
+    position: absolute;
+    z-index: -1;
+    left: 70%;
+    top: -20%;
+    max-height: 100vh;
+}
+
+#toggle:checked+.mobile-nav {
+    transform: translateX(-100vw);
+    z-index: 10;
+    translate: ease 1ms;
+}
+
 header {
     height: 105vh;
     position: relative;
@@ -77,14 +127,6 @@ p {
 
 .hero {
     width: 80%;
-}
-
-.blue-rectangle {
-    position: absolute;
-    z-index: -1;
-    left: 80%;
-    top: -20%;
-    max-height: 100vh;
 }
 
 .code-bg {
