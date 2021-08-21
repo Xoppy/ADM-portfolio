@@ -258,7 +258,6 @@ textarea {
 
 input[type=button] {
     -webkit-appearance: none;
-    -webkit-border-radius: 0px;
 }
 
 input::placeholder,
