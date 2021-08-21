@@ -256,6 +256,10 @@ textarea {
     -webkit-appearance: none;
 }
 
+input[type=button] {
+    -webkit-appearance: none;
+}
+
 input::placeholder,
 textarea::placeholder {
     opacity: 1;
