@@ -68,7 +68,7 @@ body {
     max-height: 100vh;
 }
 
-#toggle:checked+.mobile-nav {
+#toggle:checked~.mobile-nav {
     transform: translateX(-100vw);
     z-index: 10;
     translate: ease 1ms;
