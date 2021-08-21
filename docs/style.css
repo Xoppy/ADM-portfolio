@@ -253,6 +253,11 @@ textarea {
     background-color: #fff;
     opacity: .56;
     border: none;
+    -webkit-appearance: none;
+}
+
+input[type=button] {
+    -webkit-appearance: none;
 }
 
 input::placeholder,
