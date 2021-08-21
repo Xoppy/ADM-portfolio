@@ -162,7 +162,7 @@ p,
     padding: 20% 0;
 }
 
-.mobile-gallery img {
+.mobile-gallery a img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 10%;
@@ -307,7 +307,7 @@ textarea::placeholder {
         display: flex;
         flex-wrap: wrap;
     }
-    .mobile-gallery img {
+    .mobile-gallery a img {
         flex: 45%;
         margin-left: 2%;
         margin-right: 2%;
@@ -392,7 +392,7 @@ textarea::placeholder {
         align-items: flex-start;
         padding-bottom: 5%;
     }
-    .desktop-gallery>* {
+    .desktop-gallery a img {
         flex-basis: 1 1 30%;
         margin: 2%;
         border-radius: 20px;
