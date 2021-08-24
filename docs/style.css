@@ -45,7 +45,6 @@ body {
     height: 80vh;
     width: 100vw;
     background-color: #2699FB;
-    padding-left: 2%;
     transition: transform 1s;
 }
 
