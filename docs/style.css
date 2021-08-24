@@ -45,7 +45,7 @@ body {
     height: 80vh;
     width: 100vw;
     background-color: #2699FB;
-    padding-left: 5%;
+    padding-left: 2%;
     transition: transform 1s;
 }
 
@@ -363,6 +363,9 @@ textarea::placeholder {
         flex: 45%;
         margin-left: 2%;
         margin-right: 2%;
+    }
+    .mobile-nav {
+        padding-left: 3%;
     }
 }
 
