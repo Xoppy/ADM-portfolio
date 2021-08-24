@@ -34,10 +34,6 @@ body {
     z-index: 150;
 }
 
-#toggle {
-    display: none;
-}
-
 .mobile-nav {
     position: absolute;
     right: -100vw;
@@ -66,12 +62,6 @@ body {
     left: 70%;
     top: -20%;
     max-height: 100vh;
-}
-
-#toggle:checked~.mobile-nav {
-    transform: translateX(-100vw);
-    z-index: 10;
-    translate: ease 1ms;
 }
 
 header {
