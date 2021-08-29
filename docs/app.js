@@ -25,3 +25,5 @@ function isOpenSwitch() {
 
     console.log(isOpen);
 }
+
+// gallery img hover

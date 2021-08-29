@@ -116,16 +116,25 @@ p {
 }
 
 .hero {
-    width: 80%;
+    width: 70vw;
 }
 
-.code-bg {
+.code-bg{
     position: absolute;
     z-index: -2;
     height: 70vh;
     top: 30%;
     left: 40%;
     opacity: .25;
+}
+.profile{
+    position: absolute;
+    z-index: 2;
+    height: 50vh;
+    bottom:0;
+    left: 70%;
+    transform: translate(-50%, 0);
+    opacity: 1;
 }
 
 .img-container {
@@ -340,6 +349,9 @@ textarea::placeholder {
         flex: 40%;
         margin: 5% 2%;
     }
+    .profile{
+        height: 80vh;
+    }
     .mobile-gallery {
         display: flex;
         flex-wrap: wrap;
@@ -417,6 +429,19 @@ textarea::placeholder {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+    }
+    .gallery-img{
+        position: relative;
+    }
+    .gallery-img:hover{
+        visibility: visible;
+    }
+    .img-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
     }
     .image,
     .text-content {
