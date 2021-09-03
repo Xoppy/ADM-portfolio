@@ -137,6 +137,24 @@ p {
     opacity: 1;
 }
 
+#desktop-img-1,
+#desktop-img-2,
+#desktop-img-3,
+#desktop-img-4,
+#desktop-img-5,
+#desktop-img-6{
+    transition: 500ms;
+}
+
+#img-text-1,
+#img-text-2,
+#img-text-3,
+#img-text-4,
+#img-text-5,
+#img-text-6{
+    opacity: 0;
+}
+
 .img-container {
     width: 100vw;
     height: 100vh;
@@ -149,7 +167,8 @@ h1,
 h3,
 p,
 .mockup-img {
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
 }
 
 .hero p {
