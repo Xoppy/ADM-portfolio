@@ -119,7 +119,7 @@ p {
     width: 70vw;
 }
 
-.code-bg{
+.code-bg {
     position: absolute;
     z-index: -2;
     height: 70vh;
@@ -127,11 +127,12 @@ p {
     left: 40%;
     opacity: .25;
 }
-.profile{
+
+.profile {
     position: absolute;
     z-index: 2;
     height: 50vh;
-    bottom:0;
+    bottom: 0;
     left: 70%;
     transform: translate(-50%, 0);
     opacity: 1;
@@ -142,7 +143,7 @@ p {
 #desktop-img-3,
 #desktop-img-4,
 #desktop-img-5,
-#desktop-img-6{
+#desktop-img-6 {
     transition: 500ms;
 }
 
@@ -151,7 +152,7 @@ p {
 #img-text-3,
 #img-text-4,
 #img-text-5,
-#img-text-6{
+#img-text-6 {
     opacity: 0;
 }
 
@@ -208,6 +209,11 @@ p,
     border-radius: 5px;
     display: inline-block;
     margin-bottom: 1.5rem;
+    transition: 500ms;
+}
+
+.contact-btn:hover {
+    background-color: #2698fba4;
 }
 
 .portfolio {
@@ -368,7 +374,7 @@ textarea::placeholder {
         flex: 40%;
         margin: 5% 2%;
     }
-    .profile{
+    .profile {
         height: 80vh;
     }
     .mobile-gallery {
@@ -449,13 +455,13 @@ textarea::placeholder {
         justify-content: center;
         align-items: flex-start;
     }
-    .gallery-img{
+    .gallery-img {
         position: relative;
     }
-    .gallery-img:hover{
+    .gallery-img:hover {
         visibility: visible;
     }
-    .img-text{
+    .img-text {
         position: absolute;
         top: 50%;
         left: 50%;
