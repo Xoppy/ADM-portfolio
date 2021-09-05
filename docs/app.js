@@ -89,3 +89,5 @@ function outSix(){
     img6.style.opacity = "1";
     text6.style.opacity = "0";
 }
+
+// Smooth scroll to anchor
