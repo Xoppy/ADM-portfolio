@@ -188,6 +188,21 @@ p,
     font-weight: 400;
 }
 
+.help {
+    margin: 10vh 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #43405F;
+}
+
+.help p {
+    line-height: 2.5rem;
+}
+
 .pricings {
     text-align: center;
     margin-bottom: 20%;
