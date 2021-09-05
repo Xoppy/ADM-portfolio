@@ -24,6 +24,18 @@ body {
     display: none;
 }
 
+.desktop-social a:hover,
+.social a:hover {
+    color: #2F2D4B;
+    transition: 500ms;
+}
+
+.desktop-nav ul li a:hover,
+.footer-nav ul li a:hover {
+    color: #2699FB;
+    transition: 500ms;
+}
+
 #mobile-nav {
     color: #fff;
     cursor: pointer;
