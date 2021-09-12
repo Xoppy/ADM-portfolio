@@ -197,6 +197,11 @@ p,
     justify-content: center;
     align-items: center;
     background-color: #43405F;
+    background-image: linear-gradient(#2F2D4B, #2F2D4B), url(./images/workspace_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
 }
 
 .help p {
