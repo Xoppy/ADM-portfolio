@@ -1,5 +1,4 @@
 // Mobile nav bar menu toogle
-
 let isOpen = false;
 let toogledMenuCss = 'transform: translateX(-100vw); z-index: 10; translate: ease 1ms;';
 let menuButton = document.querySelector("#mobile-nav");
@@ -41,53 +40,62 @@ let text4 = document.getElementById("img-text-4");
 let text5 = document.getElementById("img-text-5");
 let text6 = document.getElementById("img-text-6");
 
-function hoverOne(){
+function hoverOne() {
     img1.style.opacity = "0.2";
     text1.style.opacity = "1";
 }
-function outOne(){
+
+function outOne() {
     img1.style.opacity = "1";
     text1.style.opacity = "0";
 }
-function hoverTwo(){
+
+function hoverTwo() {
     img2.style.opacity = "0.2";
     text2.style.opacity = "1";
 }
-function outTwo(){
+
+function outTwo() {
     img2.style.opacity = "1";
     text2.style.opacity = "0";
 }
-function hoverThree(){
+
+function hoverThree() {
     img3.style.opacity = "0.2";
     text3.style.opacity = "1";
 }
-function outThree(){
+
+function outThree() {
     img3.style.opacity = "1";
     text3.style.opacity = "0";
 }
-function hoverFour(){
+
+function hoverFour() {
     img4.style.opacity = "0.2";
     text4.style.opacity = "1";
 }
-function outFour(){
+
+function outFour() {
     img4.style.opacity = "1";
     text4.style.opacity = "0";
 }
-function hoverFive(){
+
+function hoverFive() {
     img5.style.opacity = "0.2";
     text5.style.opacity = "1";
 }
-function outFive(){
+
+function outFive() {
     img5.style.opacity = "1";
     text5.style.opacity = "0";
 }
-function hoverSix(){
+
+function hoverSix() {
     img6.style.opacity = "0.2";
     text6.style.opacity = "1";
 }
-function outSix(){
+
+function outSix() {
     img6.style.opacity = "1";
     text6.style.opacity = "0";
 }
-
-// Smooth scroll to anchor

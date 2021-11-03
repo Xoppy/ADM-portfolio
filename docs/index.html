@@ -13,7 +13,10 @@
 
 <body>
 
+    <!-- Screen 1 -->
     <header>
+
+        <!-- Background image + Profile -->
         <div class="img-container">
             <svg class="blue-rectangle" xmlns="http://www.w3.org/2000/svg" width="713" height="689" viewBox="0 0 713 689"><rect id="Rectangle_1099" data-name="Rectangle 1099" width="713" height="689" fill="#2699fb"/></svg>
             <img class="code-bg" src="./images/code-background.png" alt="">
@@ -21,8 +24,12 @@
         </div>
 
         <div class="container">
+
+            <!-- Top navigation bar -->
             <div class="nav-bar">
                 <a href="#" class="logo" id="logo">Angelo Di Marco</a>
+
+                <!-- Mobile navigation -->
                 <label for="toggle" id="mobile-nav" onclick="isOpenSwitch()"><i class="fas fa-bars"></i></label>
                 <div class="mobile-nav">
                     <ul>
@@ -35,6 +42,7 @@
                     </ul>
                 </div>
 
+                <!-- Desktop navigation -->
                 <nav class="desktop-nav">
                     <ul>
                         <li>
@@ -53,6 +61,7 @@
                 </div>
             </div>
 
+            <!-- Hero content -->
             <div class="hero" id="about">
                 <h1>Welcome!</h1>
                 <h3>My name is Angelo, and I love making websites</h3>
@@ -64,24 +73,27 @@
 
     </header>
 
+    <!-- Screen 2 -->
+
     <div class="help" id="help">
         <div class="container">
             <h1>How can I help you?</h1>
             <p>Do you need a website for your project? Or maybe you need a personal website to showcase your portfolio! <br> In any case I will help you with that. My main focus is on web development and solving geeky problems, but I can do way more than
-                that!
-                <br> I am a self taught web developer but I also have various certifications in foreign language studies, business knowledge and design/arts. <br> I currently speak English, French and Italian so communication shouldn't be an issue.</p>
+                that! <br>I am a self taught web developer but I also have various certifications in foreign language studies, business knowledge and design/arts. <br> I currently speak English, French and Italian so communication shouldn't be an issue.</p>
             <a href="#contact-section" class="contact-btn contact-section-btn">Contact me</a>
         </div>
 
     </div>
     </div>
 
+    <!-- Screen 3 -->
 
     <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
 
-
         <div class="container">
+
+            <!-- Presentation section -->
             <div class="portfolio-container">
                 <div class="image">
                     <img src="./images/Portfolio-gallery.JPG" alt="Mockup" class="mockup-img">
@@ -94,12 +106,18 @@
                     <a href="#contact-section" class="contact-btn contact-section-btn">Contact me</a>
                 </div>
             </div>
+
+            <!-- Mobile Gallery -->
+
             <div class="mobile-gallery">
                 <a href="./images/full-res/full-res-1.jpg" target="_blank"><img src="./images/Portfolio-1.png" alt=""></a>
                 <a href="./images/full-res/full-res-6.png" target="_blank"><img src="./images/Portfolio-6.png" alt=""></a>
                 <a href="./images/full-res/full-res-3.jpg" target="_blank"><img src="./images/Portfolio-3.png" alt=""></a>
                 <a href="./images/full-res/full-res-4.png" target="_blank"><img src="./images/Portfolio-4.png" alt=""></a>
             </div>
+
+            <!-- Desktop Gallery -->
+
             <div class="desktop-gallery">
                 <div class="gallery-img">
                     <a href="./images/full-res/full-res-1.jpg" target="_blank"><img src="./images/Portfolio-1.png" alt="" id="desktop-img-1" onmouseover="hoverOne()" onmouseout="outOne()">
@@ -134,9 +152,13 @@
             </div>
         </div>
 
+        <!-- Screen 4 -->
+
         <div class="pricings" id="pricing">
             <h1>Pricing</h1>
             <div class="container">
+
+                <!-- Card 1-->
                 <div class="card">
                     <i class="fab fa-wordpress icon"></i>
                     <h2>Wordpress website</h2>
@@ -146,6 +168,8 @@
                     <h4>Price range : 80€ - 100€</h4>
                     <a href="#contact-section" class="contact-btn contact-section-btn">Contact me</a>
                 </div>
+
+                <!-- Card 2-->
                 <div class="card">
                     <i class="far fa-file icon"></i>
                     <h2>Standard integration</h2>
@@ -154,6 +178,8 @@
                     <h4>Price range : 300€ - 500€</h4>
                     <a href="#contact-section" class="contact-btn contact-section-btn">Contact me</a>
                 </div>
+
+                <!-- Card 3-->
                 <div class="card">
                     <i class="fas fa-laptop-code icon"></i>
                     <h2>Freelance hire</h2>
@@ -164,19 +190,20 @@
             </div>
         </div>
 
+        <!-- Screen 5 -->
+
         <div class="contact" id="contact-section">
             <div class="container">
                 <div class="contact-container">
+
+                    <!-- Contact information -->
                     <div class="contact-info">
                         <h1>Contact</h1>
-
-
                         <p><i class="fas fa-paper-plane contact-icon"></i> Grand Est - France</p>
-
                         <p><i class="fas fa-envelope contact-icon"></i> angelodm.pers@gmail.com</p>
-
                     </div>
 
+                    <!-- Contact form -->
                     <div class="form">
                         <h3>Reach me out!</h3>
                         <div class="container">
@@ -190,12 +217,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
+    <!-- Screen 6 -->
+
     <div class="footer" id="footer">
         <div class="container">
+
+            <!-- Footer content-->
             <a href="#logo">
                 <h3>Angelo Di Marco</h3>
             </a>
@@ -206,6 +236,7 @@
                 <a href="https://www.behance.net/xopsdesign74fa" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance"></i></a>
             </div>
 
+            <!-- Footer navigation + legal -->
             <div class="footer-low">
                 <nav class="footer-nav">
                     <ul>
@@ -226,6 +257,8 @@
 
 
 </body>
+
+<!-- Script link -->
 <script src="app.js"></script>
 
 </html>
